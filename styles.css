@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url('matrix.jpeg');
+    object-fit: fill;
+}
+
+.hImg{
+    position: absolute;
+    width: 50%;
+    z-index: -1;
+    left: 250px;
+    bottom: 30%;
+}
+.rules{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+
+.background-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.password-container {
+    display: flex;
+}
+
+.password-box {
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(29, 77, 25);
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    color: rgb(252, 255, 255);
+    border: 7px solid rgb(128, 124, 125);
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.point-counter {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+.instruction-container {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+
+.return-button {
+    position: absolute;
+    top: 80%;
+    right: 220px;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.password-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#passwordInput {
+    width: 400px;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 2px solid #ccc;
+}
+
+.instruction-container1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.submit-button {
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.scrollable-box {
+    width: 500px;
+    height: 400px;
+    overflow-y: scroll;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    background-color: green;
+
+}
+
+.general-box {
+
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.checkbox {
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+    color: white;
+
+}
+
+.submit-button2 {
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 80vh;
+    cursor: pointer;
+
+}
+
+.image-container img {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
